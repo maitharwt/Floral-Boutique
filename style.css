@@ -1,0 +1,274 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: #e5def1;
+}
+header{
+    background-color: white;
+    width: 960px;
+    height: 100px;
+    position: relative;
+}
+main{
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5def1;
+}
+.logo{
+    width: 90px;
+    position: absolute; top: 5px; left: 50px;
+}
+header h1{
+    color: #58388f;
+    size: 200%;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    position: absolute; top: 25px; left: 350px;
+}
+header img{
+    width: 25px;
+}
+header ul{
+    position: absolute; top: 25px; right: 20px;
+    color: #58388f;   
+    display: flex;
+    list-style: none;
+}
+header li{
+    padding: 10px;
+    margin-right: 20px;
+}
+header a{
+    font-family:monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:visited{
+    color: #58388f; 
+}
+.main-nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: #b4a5cf;
+    text-align: center;
+    list-style: none;
+    margin-left: 0%;
+}
+.main-nav li{
+    border: solid 2px #a189ca;
+    border-radius: 20px 0px;
+    padding: 10px;
+    background-image: linear-gradient(#c2bec9,#a189ca);
+    margin-right: 20px;
+}
+.main-nav a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.main-nav a:hover{
+font-size: 17px;
+}
+.header{
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding: 10px 0px;
+    position: relative;
+}
+.deal{
+    width: 150px;
+    position: absolute; top: 10%; left: 40%;
+    color: white;
+}
+.btn{
+    font-size: 20px;
+    color: rgb(228, 226, 227);
+    background-image: linear-gradient(rgb(165, 121, 164),rgb(150, 84, 147)) ;
+    border: solid rgb(121, 67, 118) 2px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    position: absolute; top: 60%; left: 36%;
+    padding: 10px 30px;
+}
+.btn:hover{
+    color: rgb(150, 84, 147);
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(165, 121, 164)) ;
+    border: solid rgb(165, 121, 164) 2px;
+
+}
+.row{
+    background-color: white;
+    position: relative;
+}
+.row h2{
+    color: #3c2e52;
+    text-align: center;
+    font-size:40px;
+    font-style: italic;
+padding-top: 40px;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+}
+.container div{
+    width: 30%;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px 20px;
+    background-color: white;
+}
+.container img{
+width: 250px;
+}
+.container p{
+    text-transform: lowercase;
+    text-align: justify;
+}
+.container button{
+    font-size: 20px;
+    color: rgb(228, 226, 227);
+    background-image: linear-gradient(rgb(165, 121, 164),rgb(150, 84, 147)) ;
+    border: solid rgb(121, 67, 118) 2px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+.container button:hover{
+    color: rgb(150, 84, 147);
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(165, 121, 164)) ;
+    border: solid rgb(165, 121, 164) 2px;
+
+}
+.show-more{  
+      height: 60px;
+    background-color: white;
+    position: relative;
+}
+.show-more a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 20px;
+    border: solid 2px rgb(165, 121, 164);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    position: absolute; bottom: 10px; left: 40%;
+}
+.show-more a:hover{
+    text-decoration: underline;
+}
+.offer{
+    margin-top: 0px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #e5def1;
+}
+.offer-img{
+    border: solid 2px #e5def1;
+    border-radius: 30px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.offer-deal{
+    float: right;
+    height: 370px; 
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    background-image: linear-gradient(rgb(155, 152, 155),rgb(99, 55, 97)) ;
+    border: solid 2px #e5def1;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    color: white;
+}
+.offer-deal h2{
+    text-transform: uppercase;
+}
+.offer-deal h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.offer-deal p{
+text-align: justify;
+margin-bottom: 25px;
+}
+.offer-deal a{
+color:rgb(99, 55, 97);
+background-color: white;
+border: solid 2px white;
+border-radius: 5px;
+padding: 10px;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+word-spacing: 3px;
+font-weight: bold;
+}
+.offer-deal a:hover{
+    background-color: rgb(99, 55, 97);
+    border: solid 2px rgb(99, 55, 97);
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: solid black;
+    border-radius: 10px;
+}
+.connect{
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.connect h3{
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+footer a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p {
+    font-size: 18px;
+    margin: auto ;
+line-height: 10px;
+}
+footer span{
+    color: rgb(159, 98, 216);
+    text-transform: uppercase;
+}
